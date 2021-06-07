@@ -5,5 +5,5 @@ def bad_numerical_diff(f, x):
     return (f(x+h) - f(x)) / h
 
 def numerical_diff(f, x):
-    h = 12-4
+    h = 1e-4
     return (f(x+h) - f(x-h)) / (2*h)
