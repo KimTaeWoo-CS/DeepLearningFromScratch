@@ -35,3 +35,7 @@ x_val = x_train[:validation_num]
 t_val = t_train[:validation_num]
 x_train = x_train[validation_num:]
 t_train = t_train[validation_num:]
+
+weight_decay = 10 ** np.random.uniform(-8, -4)
+lr = 10 ** np.random.uniform(-6, -2)
+
